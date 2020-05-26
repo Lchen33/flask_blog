@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% block body_content %}
+<form action="{{ url_for('account_delete') }}">
+        <button type="submit">Delete your account</button>
+</form>
+{% endblock %}
